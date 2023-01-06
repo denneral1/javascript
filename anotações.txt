@@ -1,0 +1,9 @@
+ctrl+shfit+' abre o terminal
+node chama o node
+.exit fecha node
+exit fecha terminal
+ctrl+L limpa terminal
+typeof chama tipo da variavel. As primitivas são: number(Infinity, NaN), string, function, object (array/vetor), boolean, null, undefined
+${} entre crases concatena
+n1.toFixed(2) mostra 2 casas decimais de n1, assim por diante
+n1.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'}) -> faz um valor aparecer como R$1.423,50, se trocar BRL USD ou outra moeda muda pra local.

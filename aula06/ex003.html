@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: rgb(142, 164, 157);
+            font: normal 20pt arial;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2//(number + number) o + é adição (string + string) concatenação
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // crase mais ${} é outra forma de concatenar sem o +
+        /*number parseInt transforma string em numero inteiro parseFloat transforma em real, number o próprio JS converte para inteiro ou real
+        String(n) ou ntoString() converte número para string*/
+
+        //s.lenght quantos caracteres a string tem
+        //s.toUpperCase() tudo para maiúsculas
+        //s.toLowerCase() tudo para minúsculas
+        //n1.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'}) troca n1 para R$n1,xx 
+        //n1.toFixed(2) adiciona 2 casas decimais no número.
+    </script>
+</body>
+</html>
